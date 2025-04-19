@@ -1,5 +1,5 @@
 /* Vencord MemberCount Tweaks */
-/* This module has no affect unless the vencord MemberCount plugin is installed */
+/* This module has no effect unless the Vencord MemberCount plugin is installed */
 /* https://vencord.dev/plugins/MemberCount */
 /* NOT MY CODE I ONLY ADDED STUFF */
 
@@ -8,21 +8,47 @@
     display: none !important;
 }
 
+.vc-membercount-total {
+    position: relative;
+    font-size: 6px; /* Smaller text */
+}
+
 .vc-membercount-total::before {
-    content: "/";
+    content: "[total server members] ";
     visibility: visible;
     position: absolute;
     display: contents;
 }
 
 .vc-membercount-total::after {
-    content: " online modified by ytz_solar";
+    content: " online";
     visibility: visible;
     position: absolute;
     display: contents;
-    font-size: 8px;
+    font-size: 6px; /* Smaller text */
 }
 
+/* Hover effect for the total member count */
+.vc-membercount-total:hover::before {
+    content: "[total server members] solar was here ;)";
+    font-size: 6px; /* Keeps the same small size */
+}
+
+/* Adding a new line with the "modified by" text */
+.vc-membercount-modified {
+    content: "modified by ytz_solar";
+    visibility: visible;
+    position: absolute;
+    display: block;
+    font-size: 6px; /* Smaller text */
+    margin-top: 10px; /* Space for the new line */
+}
+
+/* Custom styling for the container to display the new text properly */
 .membersGroup_c8ffbb.container_cc72c1 {
     padding-top: 20px;
+}
+
+.vc-membercount-total:hover {
+    color: #e62478; /* Pink color on hover */
 }
