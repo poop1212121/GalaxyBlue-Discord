@@ -10,7 +10,7 @@
 
 .vc-membercount-total {
     position: relative;
-    font-size: 6px; /* Smaller text */
+    font-size: 12px; /* Smaller text */
 }
 
 .vc-membercount-total::before {
@@ -25,7 +25,7 @@
     visibility: visible;
     position: absolute;
     display: contents;
-    font-size: 6px; /* Smaller text */
+    font-size: 12px; /* Smaller text */
 }
 
 /* Hover effect for the total member count */
@@ -40,7 +40,7 @@
     visibility: visible;
     position: absolute;
     display: block;
-    font-size: 6px; /* Smaller text */
+    font-size: 12px; /* Smaller text */
     margin-top: 10px; /* Space for the new line */
 }
 
