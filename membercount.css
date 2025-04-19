@@ -14,7 +14,7 @@
 }
 
 .vc-membercount-total::before {
-    content: "[total server members] ";
+    content: "/";
     visibility: visible;
     position: absolute;
     display: contents;
@@ -30,7 +30,7 @@
 
 /* Hover effect for the total member count */
 .vc-membercount-total:hover::before {
-    content: "[total server members] solar was here ;)";
+    content: "/ solar was here /";
     font-size: 15px; /* Increased text size to 2.5x */
 }
 
