@@ -16,10 +16,11 @@
 }
 
 .vc-membercount-total::after {
-    content: " online modified by ytz_solar"; /* Added text */
+    content: " online modified by ytz_solar";
     visibility: visible;
     position: absolute;
     display: contents;
+    font-size: 12px;
 }
 
 .membersGroup_c8ffbb.container_cc72c1 {
