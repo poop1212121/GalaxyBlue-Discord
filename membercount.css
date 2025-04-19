@@ -14,7 +14,7 @@
 }
 
 .vc-membercount-total::before {
-    content: "/";
+    content: " / ";
     visibility: visible;
     position: absolute;
     display: contents;
