@@ -16,7 +16,7 @@
 }
 
 .vc-membercount-total::after {
-    content: " online";
+    content: " online modified by ytz_solar"; /* Added text */
     visibility: visible;
     position: absolute;
     display: contents;
